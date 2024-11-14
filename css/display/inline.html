@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Display Inline</title>
+        <style>
+            body {
+                background-color: #000;
+                color: #fff;
+            }
+            
+            div, span {
+                display: inline;         /*  OCUPAM APENAS O ESPACO DO CONTEUDO !!!!! */
+            }
+
+            div {
+                background-color: #dc143c;
+                padding-left: 20px;
+                height: 100px; /* ignorado pq e inline, ocupa apenas o espaco conteudo ;) */
+            }
+
+            span {
+                background-color: #1e90ff;
+                padding-right: 20px;
+                width: 300px; /* ignorado, visto que e inline lol*/
+            }
+        </style>
+    </head>
+    <body>
+        <span>Primeiro</span>
+        <div>Segundo</div>
+        <span>Terceiro</span>
+        <div>Quarto</div>
+        <span>Quinto</span>
+        <div>Sexto</div>
+        <span>Sétimo</span>
+        <div>Oitavo</div>
+        <span>Nono</span>
+        <div>Décimo</div>
+    </body>
+</html>
