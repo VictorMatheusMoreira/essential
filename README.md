@@ -1,2 +1,2 @@
 # essential
-I'm gonna learn about main things that I need.
+I'm gonna learn about main things I need.
